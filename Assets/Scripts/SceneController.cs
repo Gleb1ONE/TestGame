@@ -5,9 +5,9 @@ using UnityEngine;
 public class SceneController : MonoBehaviour
 {
 
-    public GameObject enemyPrefab;
+    [SerializeField] private GameObject enemyPrefab;
     private GameObject _enemy;
-    public GameObject platform;
+    [SerializeField] private GameObject platform;
 
 
     private void Start()

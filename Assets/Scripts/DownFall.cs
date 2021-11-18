@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DownFall : MonoBehaviour
 {
-    Vector3 startPos = new Vector3(0, 5, 0);
+    private Vector3 startPos = new Vector3(0, 5, 0);
 
     private void OnCollisionEnter(Collision collision)
     {

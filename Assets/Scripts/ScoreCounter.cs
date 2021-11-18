@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScoreCounter : MonoBehaviour
 {
     private int score;
-    public Text textScore;
+    [SerializeField] private Text textScore;
 
     private void OnCollisionEnter(Collision collision)
     {

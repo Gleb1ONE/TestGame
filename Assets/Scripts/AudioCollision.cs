@@ -6,12 +6,12 @@ using UnityEngine.UI;
 
 public class AudioCollision : MonoBehaviour
 {
-    public AudioClip clip;
-    public AudioClip clipMeme;
-    public AudioClip clipYeah;
-    public AudioSource audioSource;
+    [SerializeField] private AudioClip clip;
+    [SerializeField] private AudioClip clipMeme;
+    [SerializeField] private AudioClip clipYeah;
+    [SerializeField] private AudioSource audioSource;
     private bool boyyy = true;
-    public Text textButton;
+    [SerializeField] private Text textButton;
 
 
     private void OnCollisionEnter(Collision collision)
